@@ -1,0 +1,54 @@
+# ===============================
+# ESP-IDF / FreeRTOS Project
+# ===============================
+
+# Build outputs
+build/
+*.elf
+*.bin
+*.map
+*.hex
+*.out
+*.o
+*.a
+*.d
+
+# CMake / Ninja cache
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+Makefile
+*.cmake
+
+# IDF config files (local)
+sdkconfig
+sdkconfig.old
+sdkconfig.ci
+idf_config/
+idf_env.json
+
+# Logs & dumps
+*.log
+*.dump
+*.core
+*.backtrace
+
+# Python / virtualenv (si usas entornos locales)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+.venv/
+env/
+venv/
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
