@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS 
+        telemetry.c 
+        ringbuf.c
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        esp_timer
+)

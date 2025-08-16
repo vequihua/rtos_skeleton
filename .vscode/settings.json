@@ -1,0 +1,16 @@
+{
+  "idf.espIdfPathWin": "c:\\Users\\victo\\ESP-IDF\\v5.4.1\\esp-idf",
+  "idf.toolsPathWin": "c:\\Users\\victo\\ESP-IDF\\.espressif",
+  "idf.pythonInstallPath": "c:\\Users\\victo\\ESP-IDF\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.portWin": "COM4",
+  "idf.flashType": "UART",
+  "idf.openOcdConfigs": [
+    "board/esp32c3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "OPENOCD_SCRIPTS": "c:\\Users\\victo\\espressif\\esp_idf\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+    "IDF_CCACHE_ENABLE": "1",
+    "ESP_ROM_ELF_DIR": "c:\\Users\\victo\\espressif\\esp_idf\\.espressif\\tools\\esp-rom-elfs\\20240305/",
+    "IDF_TARGET": "esp32c3"
+  }
+}
