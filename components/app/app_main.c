@@ -10,6 +10,7 @@ void app_main(void)
 {
     ESP_LOGI(TAG, "Boot!");
     app_sm_init();
+    configASSERT( xPortGetFreeHeapSize() > 0 );   // ejemplo simple
 
     // Política inicial de prioridades/stack (ajustar luego con HW marks)
     log_task_start(PRIO_BAND_NORM, STK_MEDIUM);

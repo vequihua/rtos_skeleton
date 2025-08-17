@@ -12,5 +12,8 @@
     "IDF_CCACHE_ENABLE": "1",
     "ESP_ROM_ELF_DIR": "c:\\Users\\victo\\espressif\\esp_idf\\.espressif\\tools\\esp-rom-elfs\\20240305/",
     "IDF_TARGET": "esp32c3"
+  },
+  "files.associations": {
+    "cstdint": "c"
   }
 }
